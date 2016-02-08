@@ -13,16 +13,16 @@ body {
 
 main {
     background-color: #F2F2F2;
-    border-color: #FFF;
+    border-color: #cccccc;
 }
 
 h1 {
-    color: #AAA;
+    color: #996666;
     text-shadow: 0 1px #FFF;
 }
 
 .subtitle {
-    color: #AAA;
+    color: #666699;
 }
 
 .searchBar {
@@ -116,51 +116,51 @@ h1 {
 
 /* column standard colors */
 .column {
-    border-right-color: #DDD;
+    border-right-color: #efefef;
 }
 .column > a,
 .column > ul > li:before {
-    color: #DDD;
+    color: #669999;
 }
 .column > a {
     text-shadow: 0 0.5px #FFF;
 }
 .column > ul > li > a {
-    color: #888;
+    color: #aaa;
 }
 
 /* purple column highlight */
 .column_purple:hover > a,
 .column_purple:hover > ul > li:before {
-    color: #b9b6d9
+    color: #998B66
 }
 .column_purple:hover > a {
     text-shadow: 0 0.5px #FFF;
 }
 .column_purple > ul > li > a:hover {
-    color: #b9b6d9;
+    color: #998B66
 }
 
 /* pink column highlight */
 .column_pink:hover > a,
 .column_pink:hover > ul > li:before {
-    color: #d67b96
+    color: #998B66
 }
 .column_pink:hover > a {
     text-shadow: 0 0.5px #FFF;
 }
 .column_pink > ul > li > a:hover {
-    color: #d67b96;
+    color: #998B66
 }
 
 /* green column highlight */
 .column_green:hover > a,
 .column_green:hover > ul > li:before {
-    color: #729a64;
+    color: #998B66
 }
 .column_green:hover > a {
     text-shadow: 0 0.5px #FFF;
 }
 .column_green > ul > li > a:hover {
-    color: #91b476;
+    color: #998B66
 }
