@@ -1,4 +1,4 @@
-Homepage
+Homepage : ruri-light edit (Shiro)
 ====
 
 ![alt tag](screenshots/preview.png "Homepage preview")
@@ -13,8 +13,10 @@ Features:
 * Flashy Slidy searchbars
 * Randomly selected cute 2D girls
 * Column style links.
-* **New**: Light color theme. See [Live Demo](http://gokoururi.github.io/homepage/index-light.html)
-  * New directory structure for easier making and sharing themes.
+* Light color theme. See [Live Demo](http://gokoururi.github.io/homepage/index-light.html)
+* Directory structure for easier making and sharing themes.
+* 40 mascots.
+
 
 Customizing, adding mascots and themes
 ----
