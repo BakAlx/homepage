@@ -1,35 +1,36 @@
-Homepage : ruri-light edit (Shiro)
+Homepage
 ====
 
 ![alt tag](screenshots/preview.png "Homepage preview")
 
-**Live Demo: [Dark](http://gokoururi.github.io/homepage/) - [Light](http://gokoururi.github.io/homepage/index-light.html)**
-
 This repository contains a custom homepage made using html, css and javascript (jQuery). Feel free to download and modify. Comments and suggestions appreciated. Please don't expect too much.
 
 Features:
-* Flashy links
-* Flashy Slidy sublinks
+* Column style links, by category
 * Flashy Slidy searchbars
 * Randomly selected cute 2D girls
-* Column style links.
 * Light color theme. See [Live Demo](http://gokoururi.github.io/homepage/index-light.html)
-* Directory structure for easier making and sharing themes.
-* 40 mascots.
-
+* 40 Mascots
+* Current day and time
+* Weather by location
 
 Customizing, adding mascots and themes
 ----
 To change current theme, replace its name in [home.html](home.html#L15-17)
 
-To customize mascots in `ruri-dark` theme, modify the array in [themes/ruri-dark/mascots.js](themes/ruri-dark/mascots.js):
+To customize mascots in `ruri-light` theme, modify the array in [themes/ruri-light/mascots.js](themes/ruri-light/mascots.js):
 ```javascript
-var mascotList = [ "ruri1.png", "ruri2.png", "ruri3.png" ];
+var mascotList = [ "1.png", "2.png", "3.png" ];
 ```
 
-To make new theme, you can copy an existing one, and change images and [colors.css](themes/ruri-dark/colors.css) as you like.  
-Please note that entries in your theme's [mascots.js](themes/ruri-dark/mascots.js) should match with contents of [mascots/](themes/ruri-dark/mascots/) directory.  
-(Of course, above links use `ruri-dark` theme only as an example.)
+For accurate temperatures, edit "weather.js" and change the search query to the closest city or zip code near you.
+```javascript
+var json_url = "http://api.openweathermap.org/data/2.5/weather?q=60646,ma&appid=6e131a2916d5d45d8367b72a4675be0a";
+```
+
+To make new theme, you can copy an existing one, and change images and [colors.css](themes/ruri-light/colors.css) as you like.  
+Please note that entries in your theme's [mascots.js](themes/ruri-light/mascots.js) should match with contents of [mascots/](themes/ruri-light/mascots/) directory.  
+(In this fork, all styling data is referenced within /ruri-light)
 
 Disclaimer
 ----
