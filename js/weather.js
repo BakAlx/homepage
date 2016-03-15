@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 var json_url = "http://api.openweathermap.org/data/2.5/weather?q=60646,ma&appid=6e131a2916d5d45d8367b72a4675be0a";
-=======
-var json_url = "http://api.openweathermap.org/data/2.5/weather?q=Chicago,ma&appid=6e131a2916d5d45d8367b72a4675be0a";
->>>>>>> origin/master
 var city;
 var temp_curr;
 var temp_low;
