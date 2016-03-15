@@ -21,11 +21,13 @@ body {
 /* .mascot and .plain will be added to element 'main' by javascript in
     addition to a random mascot */
 .mascot {
-    padding: 20px 20px 20px 200px;
+    padding: 110px 0px 25px 170px;
+    background-color: #EFEFEF
 }
 
 .plain {
-    padding: 20px 20px 20px 20px;
+    padding: 110px 0px 25px 10px;
+    background-color: #EFEFEF
 }
 
 main {
@@ -33,35 +35,29 @@ main {
     min-width: 500px;
     font-size: 18px;
     background-size: contain;
+    /*border-width: 1px;*/
+    /*border-style: solid;*/
     background-repeat: no-repeat;
-    border-width: 1px;
-    border-style: solid;
-    margin: 10vh 0 0 0;
+    margin: 0 0 0 0;
 }
 
 header {
-    margin-bottom: 30px;
-}
-
-h1 {
-    letter-spacing: 1px;
-    font-size: 40px;
-    font-weight: normal;
-    text-align: center;
-    padding: 0;
-    margin: 0;
+    margin-bottom: 15px;
 }
 
 .subtitle {
     text-align: center;
     letter-spacing: 2px;
     padding: 0;
-    margin: 0;
+    margin: 0 0 0 0;
+    font-size: 22px;
 }
 
 .searchContainer {
     text-align: center;
-    margin: 15px 0;
+    margin-top: -90px;
+    margin-left: -20px;
+    padding-bottom: 50px;
 }
 
 .searchForm {
@@ -104,6 +100,9 @@ h1 {
 
 nav {
     text-align: center;
+    margin-top: -20px;
+    margin-left: -20px;
+    padding-bottom: 50px;
 }
 
 .columnList,
@@ -192,8 +191,6 @@ nav {
     display: table-cell;
     text-align: center;
     height: 100%;
-    border-right-width: 1px;
-    border-right-style: solid;
     padding: 0 10px;
 }
 
@@ -222,3 +219,56 @@ nav {
     transition: all 0.8s;
 }
 
+/* Weather addition, credits to austinkilduff https://github.com/austinkilduff/startpage/ */
+/* clock/date from the internet */
+
+.container {
+    padding: 0;
+}
+
+#content, .vcenter {
+    top: 15vh;
+    transform: translateY(10%);
+}
+
+#date {
+    float: center;
+    letter-spacing: 1px;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#time {
+    letter-spacing: 1px;
+    color: #8C6699;
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    margin: 0 0 0 0;
+}
+
+#weather {
+    color: #bbbbbb;
+    margin-bottom: 5px;
+}
+
+#description {
+    color: #909090;
+}
+
+h2 {
+    font-size: 26px;
+    margin: 0 0 0 0;
+}
+
+h3 {
+    font-size: 26px;
+    margin: 0 0 0 0;
+}
+
+small{
+        color: #ccc;
+}

@@ -18,13 +18,32 @@
 
         <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
         <script type="text/javascript" src="js/mascots-control.js"></script>
-    </head>
-    <body>
-        <main> <!-- Random mascot image will be set as background-image by javascript -->
-            <header>
-                <h1>The Internet<span class="name-highlight"></span></h1>
+        
+        <!-- http://www.elated.com/articles/creating-a-javascript-clock/ -->
+                
+        <script type="text/javascript" src="js/clock.js"></script>
+
+        <!-- https://github.com/austinkilduff/startpage -->
+        <script src="js/weather.js"></script>
+        <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		    	<div class="container">
+    		<div id="content" class="vcenter">
+    		    <h1 id="date"></h1>
+     		    <h4 id="time"></h1>              
+                <div id="weather">
+                	<h2 id="description"></h2>
+					<h3 id="temp_curr">
+						<small id="temp_low"></small>
+						<small id="temp_high"></small>
+					</h3>
+				</div>	
+		       <header>
                 <p class="subtitle">Nothing amazing ever happens here</p>
-            </header>
+            </header>		
+    </head>
+	<body>
+        <main> <!-- Random mascot image will be set as background-image by javascript -->
             <section class="searchContainer">
                 <form class="searchForm" method="get" action="https://google.com/search">
                     <input class="searchBar search_google" type="text" name="q" placeholder="Google" autofocus="autofocus" search_/>
