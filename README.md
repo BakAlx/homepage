@@ -10,7 +10,11 @@ Features:
 * Flashy Slidy searchbars
 * Randomly selected cute 2D girls
 * Light color theme. See [Live Demo](http://gokoururi.github.io/homepage/index-light.html)
+<<<<<<< HEAD
 * 50 Mascots
+=======
+* 40 Mascots
+>>>>>>> origin/master
 * Current day and time
 * Weather by location
 

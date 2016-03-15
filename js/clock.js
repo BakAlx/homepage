@@ -27,7 +27,11 @@
 
       var timeOfDay = ( hour < 12 ) ? "PM" : "AM"
     
+<<<<<<< HEAD
       document.getElementById("date").innerHTML=day+" "+month+" "+date+nth(date);
+=======
+      document.getElementById("date").innerHTML=day+" "+month+" "+date;
+>>>>>>> origin/master
       document.getElementById("time").innerHTML=hour+":"+min+":"+sec+"&nbsp;"+timeOfDay;
     }
 
@@ -36,6 +40,7 @@
     return i;
 }
 
+<<<<<<< HEAD
     function nth(d) {
       if(d>3 && d<21) return 'th'; // thanks kennebec
       switch (d % 10) {
@@ -45,3 +50,5 @@
             default: return "th";
         }
     } 
+=======
+>>>>>>> origin/master
