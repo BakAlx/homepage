@@ -2,12 +2,18 @@
     This work is free. You can redistribute it and/or modify it under the
     terms of the Do What The Fuck You Want To Public License, Version 2,
     as published by Sam Hocevar. See the COPYING file for more details. */
+
+a {
+	text-shadow: none !important;
+}
+
 html {
     height: 100%;
     margin: 0;
     padding: 0;
     font-size: 0;
 }
+
 body {
     height: 100%;
     margin: 0;
@@ -239,6 +245,7 @@ nav {
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
+    text-shadow: none !important;
 }
 
 #time {
