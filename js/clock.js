@@ -26,6 +26,7 @@
        hour = (hour == 0) ? 12 : hour;
 
       var timeOfDay = ( hour < 12 ) ? "PM" : "AM"
+	  var timeOfDay = ( hour > 12 ) ? "AM" : "PM"
     
       document.getElementById("date").innerHTML=day+" "+month+" "+date+nth(date);
       document.getElementById("time").innerHTML=hour+":"+min+":"+sec+"&nbsp;"+timeOfDay;
