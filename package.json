@@ -1,0 +1,30 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "Homepage\r ====",
+  "main": "src/index.html",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "fomantic-ui": "^2.7.5",
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BakAlx/homepage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BakAlx/homepage/issues"
+  },
+  "homepage": "https://github.com/BakAlx/homepage#readme"
+}

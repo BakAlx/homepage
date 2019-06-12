@@ -1,0 +1,7 @@
+# User-project-IDE-specific files
+.idea/
+
+# Node Packages
+node_modules/
+
+# Libraries not requied
